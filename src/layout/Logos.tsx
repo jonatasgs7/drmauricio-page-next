@@ -1,7 +1,17 @@
+import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Logos.module.css'
+import { gsap } from 'gsap'
 
 export function Logos(){
+
+    const [logo1Ref, logo2Ref] = [useRef(null), useRef(null)]
+
+    useEffect(() => {
+        gsap.from(logo1Ref.current, {x: -50, opacity: 0, delay: 1.25,})
+        gsap.from(logo2Ref.current, {x: -50, opacity: 0, delay: 1.50,})
+    }, [])
+
     return (
         <>
             <div className={styles.logos}>
@@ -10,6 +20,7 @@ export function Logos(){
                     alt="Logotipo da Marinha"
                     width={188.6}
                     height={65}
+                    ref={logo1Ref}
                 />
 
                 <Image 
@@ -17,6 +28,7 @@ export function Logos(){
                     alt="Logotipo da Clínica Serpas"
                     width={267}
                     height={50}
+                    ref={logo2Ref}
                 />
             </div>
         </>
