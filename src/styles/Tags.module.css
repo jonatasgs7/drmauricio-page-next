@@ -1,0 +1,9 @@
+.tags p {color:var(--secondaryColor); margin-top:60px;}
+.tags ul {margin-top:10px;}
+.tags ul li {list-style:none; display:inline-block; margin-right:4px;}
+.tags ul li a {float:left; padding:7px 12px; background-color:var(--secondaryColor); color:#fff; text-decoration:none; border-radius:3px; transition:all 150ms linear;}
+.tags ul li a:hover {background-color:var(--primaryColor);}
+
+@media (max-width:768px){
+    .tags {padding-bottom:60px;}
+}
