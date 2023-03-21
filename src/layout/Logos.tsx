@@ -5,12 +5,14 @@ import { gsap } from 'gsap'
 
 export function Logos(){
 
-    const logoRef = useRef(null)
+    const logoRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        gsap.from(logoRef.current.children, {x: -50, opacity: 0, delay: 1.25, stagger: .25})
-
+        if (logoRef.current != null) {
+            gsap.from(logoRef.current.children, {x: -50, opacity: 0, delay: 1.25, stagger: .25})
+        }
     }, [])
+    
 
     return (
         <>
