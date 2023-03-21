@@ -1,9 +1,9 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, ReactNode } from 'react'
 import styles from '@/styles/Description.module.css'
 import { gsap } from 'gsap'
 
 interface Description {
-    text: string
+    children: ReactNode
 }
 
 export function Description(props:Description){
@@ -18,5 +18,11 @@ export function Description(props:Description){
         })
     }, [])
 
-    return <p className={styles.description} ref={descRef}>{props.text}</p>
+    return (
+        <>
+            <div className={styles.description} ref={descRef}>
+                {props.children}
+            </div>
+        </>
+    )
 }

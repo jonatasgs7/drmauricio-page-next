@@ -21,7 +21,7 @@ export function Socials(){
         <>
             <div className={styles.socials} ref={iconRef}>
                 <Icon url={"https://wa.me/552199155-2177"} title={"Converse comigo no WhatsApp"} icon={<WhatsappLogo />} highlight={true} />   
-                <Icon url={"calendly.com/clinicaserpas"} title={"Confira minha agenda"} icon={<CalendarBlank />} highlight={false} /> 
+                <Icon url={"https://calendly.com/clinicaserpas"} title={"Confira minha agenda"} icon={<CalendarBlank />} highlight={false} /> 
                 <Icon url={"https://www.instagram.com/dr.mauriciotorres/"} title={"Acesse meu perfil no Instagram"} icon={<InstagramLogo/>} highlight={false} />   
                 <Icon url={"https://www.facebook.com/mmtorres28"} title={"Acesse minha página no Facebook"} icon={<FacebookLogo/>} highlight={false} />   
             </div>

@@ -4,25 +4,43 @@ import { Description } from '@/components/Description'
 import { Logos } from '@/layout/Logos'
 import { Tags } from '@/layout/Tags'
 
-export function Content(){
+export function Content() {
     return (
         <>
             <div className={styles.content}>
 
-                <div className={styles.content_title}>
-                    <Title text="Frase curta e objetiva" />
-                </div>
+                <Description>
+                    <div className={styles.content_description}>
+                        
+                        <p>Carreira desenvolvida na área de Medicina, com experiência na identificação de doenças e sintomas, orientação sobre o tratamento mais apropriado, realização e solicitação de exames complementares e tratamento cirúrgico de patologias ginecológicas e obstétricas.</p><br />
+                        <p>Vivência na prescrição de tratamentos clínico, ambulatorial e hospitalar, avaliando e acompanhando o desenvolvimento do quadro clínico de cada paciente.</p><br />
+                        <p>Participação ativa na avaliação da qualidade da assistência prestada aos pacientes pelas instituições, propondo quando necessário, melhorias do programa de assistência global.</p><br />
+                        <p>Experiência na área de regulação e auditoria das contas médicas dos Hospitais credenciados à Marinha do Brasil (FUSMA)
+                            Capitão-de Corveta, médico, da Marinha do Brasil, com formação clínica e cirúrgica nesta instituição, com experiência também, nas áreas de gestão e qualidade.</p><br />
+                        <p>Assistente da Clínica de Ginecologia do Hospital Naval Marcíio Dias</p><br />
+                        <p>Atendimento ginecológico em consultório particular na cidade de Teresópolis/RJ (Clínica Serpas), voltado para avaliação e melhora de vida das pacientes na Menopausa e das pacientes com doenças estrógeno dependentes com Endometriose, adenomiose e miomatose uterina</p><br />
 
-                <div className={styles.content_description}>
-                    <Description text="Phasellus rhoncus odio nec felis vehicula molestie. Aenean nunc lacus, volutpat ac tristique at, euismod et tortor. Cras odio libero, sodales at lacinia et, pharetra in eros. Nam malesuada velit ut sem tempus consequat. Integer metus felis, blandit id nisl volutpat, porta ultricies neque. Phasellus placerat tempus mauris, at commodo magna ullamcorper et. Nullam ornare blandit nunc, ac dapibus tellus molestie sit amet. Nam tempor quam metus, sed aliquam diam eleifend nec. Sed vestibulum eros massa, nec varius purus vestibulum vitae. Duis eu libero quis leo pharetra egestas sed sed nisl.
+                        <h3>FORMAÇÃO ACADÊMICA</h3><br />
 
-                    Nam pretium tellus nec lacus consequat facilisis et ut neque. Vivamus in ex quis nisl egestas malesuada in vitae diam. Donec urna elit, imperdiet at scelerisque ac, laoreet at ex. Morbi in est non risus tempus convallis. In sit amet luctus tellus. Quisque varius quis ante quis convallis. Curabitur ut leo a justo sollicitudin vehicula. Pellentesque nulla quam, condimentum a elit at, molestie congue felis. Curabitur aliquam, mauris vitae volutpat tincidunt, nunc ipsum rutrum ante, quis porta purus felis ut arcu. Vestibulum lectus nulla, pulvinar at posuere at, hendrerit in libero.
+                        <p>Residência Médica em Ginecologia e Obstetrícia Iniciada em Fev/2002 e concluída em Dez/2004<br />
+                            Instituição: Hospital Naval Marcílio Dias<br />
+                            Graduação em Medicina - Dez/2001 Instituição: Universidade Gama Filho</p><br />
 
-                    Donec sodales orci a diam finibus consectetur eget sit amet augue. Integer auctor rhoncus nisl et euismod. Proin et ex quis velit aliquam suscipit condimentum a odio. In neque neque, euismod id congue a, malesuada eget nibh. Quisque tortor odio, varius nec quam eu, placerat lobortis magna. Mauris pulvinar dictum vulputate. Duis vulputate, orci sed posuere iaculis, tortor justo posuere elit, eget fringilla sem nisi id velit. Nullam rhoncus turpis sit amet volutpat posuere. Nullam vel urna lacus. Donec justo purus, varius a pellentesque ut, vestibulum eget urna. Integer rutrum finibus lectus, euismod blandit libero mattis ullamcorper. Vivamus fringilla justo id metus commodo, a rutrum dolor ultricies. Vivamus risus sem, consectetur eget hendrerit sit amet, vehicula at libero." />
-                </div>
+                        <h3>FORMAÇÃO COMPLEMENTAR</h3><br />
+
+                        <ul>
+                            <li>Curso de Ultrassonografia UNISSOM e Caliper</li>
+                            <li>Curso de cirurgia minimamente invasiva Londrina/PR</li>
+                            <li>Curso de Implantes Hormonais da Elmeco, com o Professor Elsimar Coutinho</li>
+                            <li>Curso de Implantes hormonais da SottoPelle Brasil</li>
+                            <li>Realização do Curso de Terapia hormonal do Professor Ítalo Rachid</li>
+                        </ul>
+
+                    </div>
+                </Description>
 
                 <Logos />
-                
+
                 <Tags />
 
             </div>

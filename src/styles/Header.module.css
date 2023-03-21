@@ -1,5 +1,5 @@
 .header {width:100%; padding:15px 0;}
-.logo {width:244.29px; height:70px; background-image:url(../assets/img/logo_dr_mauricio_torres.svg); background-repeat:no-repeat; background-size:cover; position:relative; left:50%; transform:translateX(-50%);}
+.logo {width:273.32px; height:80px; background-image:url(../assets/img/logo_dr_mauricio_torres.svg); background-repeat:no-repeat; background-size:cover; position:relative; left:50%; transform:translateX(-50%);}
 
 @media (max-width:480px){
     .logo {width:191.94px; height:55px;}

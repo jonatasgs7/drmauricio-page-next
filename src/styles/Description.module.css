@@ -1,5 +1,5 @@
 .description {color:var(--primaryColor); text-align:justify; margin-top:15px; max-height:300px; overflow-x:hidden; overflow-y:scroll; padding-right:15px;}
-
+.description ul {padding-left:20px;}
 .description::-webkit-scrollbar {
     width:6px;
   }
