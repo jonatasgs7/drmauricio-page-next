@@ -3,6 +3,6 @@
 .module_content {width:55%;}
 
 @media (max-width:768px){
-  .main {flex-direction:column;}
+  .main {flex-direction:column; gap:20px;}
   .module_photo, .module_content {width:100%;}
 }

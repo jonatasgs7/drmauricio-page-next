@@ -6,15 +6,12 @@ import gsap from 'gsap'
 
 export function Socials(){
 
-    const iconRef = useRef(null)
+    const iconRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
-        gsap.from(iconRef.current, {
-            x: -50,
-            opacity: 0,
-            delay: 0.5,
-            stagger: .2
-        })
+        if(iconRef.current != null){
+            gsap.from(iconRef.current, {x: -50, opacity: 0, delay: .5, stagger: .25})
+        }
     }, [])
 
     return (

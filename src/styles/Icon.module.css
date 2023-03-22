@@ -1,4 +1,4 @@
-.icon {width:var(--iconSize); height:var(--iconSize); text-align:center; background-color:var(--primaryColor); border-radius:50%; overflow:hidden; transition:all 150ms linear;}
+.icon {width:var(--iconSize); height:var(--iconSize); text-align:center; background-color:var(--primaryColor); border-radius:50%; overflow:hidden; opacity:1; transition:all 150ms linear;}
 .icon a {width:var(--iconSize); height:var(--iconSize); color:#fff; font-size:46px; margin:0; display:flex; justify-content:center; align-items:center;}
 .icon:hover {transform:scale(1.1);}
 .icon_highlight {background-color:var(--whatsappColor);}

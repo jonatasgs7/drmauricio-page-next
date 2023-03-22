@@ -2,5 +2,5 @@
 .logo {width:273.32px; height:80px; background-image:url(../assets/img/logo_dr_mauricio_torres.svg); background-repeat:no-repeat; background-size:cover; position:relative; left:50%; transform:translateX(-50%);}
 
 @media (max-width:480px){
-    .logo {width:191.94px; height:55px;}
+    .logo {width:222.08px; height:65px;}
 }
