@@ -10,7 +10,7 @@
 
 ::selection {background-color:var(--primaryColor); color:#fff; text-shadow:none;}
 
-body {background-image:url(../assets/img/background_main.png); background-repeat:no-repeat; background-position:right center;}
+body {background-image:url(../assets/img/background_main.png); background-repeat:no-repeat; background-position:right top;}
 
 @media (max-width:768px){
   body {background-image:none;}
