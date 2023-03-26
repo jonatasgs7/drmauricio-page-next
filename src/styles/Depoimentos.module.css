@@ -1,10 +1,10 @@
 .depoimentos {width:100%; margin-top:-20px; background-color:var(--primaryColor); padding:100px 40px; position:relative;}
 .depoimentosButton {width:180px; height:40px; background-color:var(--primaryColor); border-radius:20px 20px 0 0; position:absolute; bottom:100%; left:50%; transform:translateX(-50%); display:flex; justify-content:center; align-items:center; color:#fff; cursor:pointer; transition:all 150ms linear;}
 .depoimentosButton:hover {height:46px;}
-.depoboxContainer {display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px;}
+.depoboxContainer {display:flex; justify-content:center; flex-wrap:wrap; gap:20px;}
 
 @media (max-width:768px){
-    .depoimentos {padding:60px 5px;}
+    .depoimentos {padding:40px 0;}
     .depoboxContainer {gap:0;}
 }
 

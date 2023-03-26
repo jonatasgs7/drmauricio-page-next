@@ -1,4 +1,4 @@
-.depobox {width:calc(50% - 10px); padding:20px; border-radius:5px; background-color:#fff; margin-bottom:15px; position:relative;}
+.depobox {width:calc(33.3333% - 15px); padding:20px; border-radius:5px; background-color:#fff; margin-bottom:15px; position:relative;}
 .depobox h4 {font-size:22px; color:var(--primaryColor); margin-bottom:10px;}
 .depobox p {font-size:14px; color:#777}
 .depoboxStars {color:var(--thirdColor); font-size:22px; position:absolute; top:-8px;}
