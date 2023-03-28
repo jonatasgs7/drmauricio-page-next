@@ -46,7 +46,6 @@ export default function Home() {
 Mudei meu convenio para voltar a ser atendida por ele, pois é um ginecologista excelente, além de muito humano. Sempre nos atende com prontidão e eficiência" />
         <DepoimentoBox autor="Débora" depoimento="Dr Mauricio é um médico muito bom e muito atencioso , ótimo ginecologista , super indico esse profissional!" />
         <DepoimentoBox autor="Isabella Feitosa" depoimento="Este médico é um profissional super atencioso, carismático, possui credibilidade e muito profissional." />
-        <DepoimentoBox autor="E.O." depoimento="Excelente profissional, bom atendimento. Consultório muito agradável, recomendo sempre para as pessoas." />
         <DepoimentoBox autor="Ângela Aguiar" depoimento="Excelente profissional, empático, gentil e sempre disponível para tirar dúvidas. Médico para vida!!!" />
         <DepoimentoBox autor="Iolene Maria" depoimento="Dr.Mauricio é um ótimo médico comprometido com seu paciente, eu confio no seu trabalho, os tratamentos que fiz no decorrer de 2020 foram supervisionados por ele, tiveram resultados excelentes. Gratidão a Deus ." />
         <DepoimentoBox autor="Thais Fagundes de Rezende" depoimento="É o melhor Ginecologista de Teresópolis, muito eficiente e atencioso. Super Recomendo. Tira todas as suas dúvidas." />
@@ -54,7 +53,6 @@ Mudei meu convenio para voltar a ser atendida por ele, pois é um ginecologista 
         <DepoimentoBox autor="Daniela Ricciardi" depoimento="Excelente profissional, muito prestativo e ele se preocupa de verdade com os pacientes. Melhor médico que conheci na vida. Super recomendo" />
         <DepoimentoBox autor="Jéssica" depoimento="Um excelente médico, muito educado e atencioso.
 Seu atendimento é com clareza e apresenta um grande conhecimento. Super indico!!" />
-        <DepoimentoBox autor="NB" depoimento="Excelente médico, atencioso, competente. Sempre paciente para ouvir e explicar! Faço acompanhamento de rotina há alguns anos." />
         <DepoimentoBox autor="Érika Peclat de Araujo" depoimento="O melhor profissional na área de ginecologia! Sempre recomendo a todas as mulheres que conheço, pois além da assistência médica ser impecável ele é muito atencioso!" />
         <DepoimentoBox autor="Thatiana Lopes" depoimento="Dr. Maurício além de ser médico ele é humano, entende nossos casos, paciente, detalhista, atencioso! Indico ele para todas as amigas e conhecidas! Me identifiquei com ele e com o atendimento super humanizado. Sou atendimento pela Dra. Dani também, que aliás, também é um amor de pessoa! Só tenho a agradecer a ambos, ao consultório e a maravilhosa Regina, que é uma pessoa com um coração de OURO, um amorzinho e deixa a gente mega relaxada antes das consultas e exames. São totalmentes de confianças! Só tenho a agradecer!" />
         <DepoimentoBox autor="Sandy" depoimento="Excelente profissional, sempre que preciso ele me atende com urgência, explica tudo direitinho e nos deixa a vontade." />
