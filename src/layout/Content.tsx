@@ -12,13 +12,11 @@ export function Content() {
                 <Description>
                     <div className={styles.content_description}>
                         
-                        <p>Carreira desenvolvida na área de Medicina, com experiência na identificação de doenças e sintomas, orientação sobre o tratamento mais apropriado, realização e solicitação de exames complementares e tratamento cirúrgico de patologias ginecológicas e obstétricas.</p><br />
-                        <p>Vivência na prescrição de tratamentos clínico, ambulatorial e hospitalar, avaliando e acompanhando o desenvolvimento do quadro clínico de cada paciente.</p><br />
-                        <p>Participação ativa na avaliação da qualidade da assistência prestada aos pacientes pelas instituições, propondo quando necessário, melhorias do programa de assistência global.</p><br />
-                        <p>Experiência na área de regulação e auditoria das contas médicas dos Hospitais credenciados à Marinha do Brasil (FUSMA)</p><br />
-                        <p>Capitão-de Corveta, médico, da Marinha do Brasil, com formação clínica e cirúrgica nesta instituição, com experiência também, nas áreas de gestão e qualidade.</p><br />
-                        <p>Assistente da Clínica de Ginecologia do Hospital Naval Marcílio Dias.</p><br />
-                        <p>Atendimento ginecológico em consultório particular na cidade de Teresópolis/RJ (Clínica Serpas), voltado para avaliação e melhora de vida das pacientes na Menopausa e das pacientes com doenças estrógeno dependentes com Endometriose, adenomiose e miomatose uterina.</p><br />
+                        <p>Sou médico especializado em ginecologia e obstetrícia, com mais de 20 anos de experiência em atendimento a mulheres em diferentes fases da vida. Desde o início da minha carreira, sempre me dediquei a ajudar minhas pacientes a alcançarem uma saúde plena e uma qualidade de vida elevada.</p><br />
+                        <p>Com o passar dos anos, percebi que muitas mulheres enfrentam dificuldades relacionadas a alterações hormonais, que podiam afetar tanto a saúde física quanto a emocional. Com isso em mente, decidi aprimorar meus conhecimentos em terapia hormonal feminina, realizando cursos com Dr. Elsimar Coutinho e com Dr. Ítalo Rachid, mestres especializados na área, além de cursos voltados para emagrecimento, hipertrofia e terapias injetáveis.</p><br />
+                        <p>Atualmente, sou um profissional capacitado para ajudar mulheres a lidarem com questões relacionadas ao emagrecimento,  menopausa, TPM, endometriose, SOP, entre outras condições que possam ser tratadas com terapia hormonal. Utilizo técnicas modernas e seguras, sempre visando a individualidade e o bem-estar de cada paciente.</p><br />
+                        <p>Capitão de Corveta, médico, da Marinha do Brasil, com formação clínica e cirúrgica nesta instituição, com experiência também, nas áreas de gestão e qualidade.</p><br />
+                        <p>Atualmente é assistente da Clínica de Ginecologia do Hospital Naval Marcílio Dias.</p><br />
 
                         <h3>FORMAÇÃO ACADÊMICA</h3><br />
 
@@ -35,7 +33,7 @@ export function Content() {
                             <li>Curso de cirurgia minimamente invasiva Londrina/PR</li>
                             <li>Curso de Implantes Hormonais da Elmeco, com o Professor Elsimar Coutinho</li>
                             <li>Curso de Implantes hormonais da SottoPelle Brasil</li>
-                            <li>Realiação do Ciurso de Terapia hormonal do Professor Ítalo Rachid</li>
+                            <li>Realização do Curso de Terapia hormonal do Professor Ítalo Rachid</li>
                         </ul>
 
                     </div>
